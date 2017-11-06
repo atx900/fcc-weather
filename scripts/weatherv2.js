@@ -36,7 +36,7 @@ function getData (position) {                                                 //
 
       placeholderTemp = currentTemperature
 
-      if (currentWeather.indexOf('Clear') >= 0) {                             // retrieve corresponding animted weather icon
+      if (currentWeather.indexOf('Clear') >= 0) {                             // retrieve corresponding animated weather icon
         skycons.add(document.getElementById('weather-icon'), Skycons.CLEAR_DAY)
       } else if (currentWeather.indexOf('Clouds') >= 0) {
         skycons.add(document.getElementById('weather-icon'), Skycons.CLOUDY)
