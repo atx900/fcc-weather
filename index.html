@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/weather.css">
+    <title>Local Weather</title>
+  </head>
+  <body class="container-fluid">
+    <div class="row">
+      <div class="container text-center">
+        <h1>Your Local Weather</h1>
+        <p></p>
+        <div class="weather-box">
+          <p>Current Location: <span id="location"></span></p>
+          <p>Weather: <span id="weather"></span></p>
+          <p><canvas id="weather-icon" width="128" height="128"></canvas></p>
+          <p>Temperature: <span id="temperature"></span></p>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <div class="row">
+      <div class="container text-center button-space">
+        <p>
+          <span><button class="btn btn-primary" id="getCelsius" name="button">Celsius</button></span>
+          <span><button class="btn btn-primary" id="getFarenheit" name="button">Farenheit</button></span>
+        </p>
+      </div>
+    </div>
+    <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js" charset="utf-8"></script>
+    <script src="scripts/weatherv2.js" charset="utf-8"></script>
+  </body>
+</html>
