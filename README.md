@@ -1,5 +1,5 @@
 Local Weather
-- A Free Code Camp front-end challenge, checks a user's local weather by determining his/her current location using HTML5 Geolocation (latitude & longitude) followed by checking the current weather using FCC's weather API then picking up the corresponding animated weather icon using Skycons library.
+- A Free Code Camp front-end challenge, checks the user's local weather using HTML5 Geolocation (to determine current latitude & longitude) and then passing the location data to FCC's weather API to produce the corresponding weather data.
 - Implemented in vanilla JavaScript using standard JS 'coding' style
 
 Resources used:
